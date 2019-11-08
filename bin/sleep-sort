@@ -1,5 +1,11 @@
 #!/usr/bin/env node
+// bin/sleep-sort
 var sleepsort = require('../lib/main');
 
 var args = process.argv.slice(2);
-console.log(sleepsort(args));
+
+function printArray(array) {
+  console.log(array.join(' '));
+}
+
+sleepsort(args, printArray);
