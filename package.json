@@ -2,7 +2,7 @@
   "name": "nodeform",
   "version": "1.0.0",
   "description": "This is my tutorial node module",
-  "main": "index.js",
+  "main": "lib/main.js",
   "directories": {
     "lib": "lib",
     "test": "test"
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/dalomar/NodeForm/issues"
   },
-  "homepage": "https://github.com/dalomar/NodeForm#readme"
+  "homepage": "https://github.com/dalomar/NodeForm#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "should": "^13.2.3"
+  }
 }
