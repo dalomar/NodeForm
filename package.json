@@ -8,8 +8,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha test/*.js",
-    "bin": { "sleep-sort": "./bin/sleep-sort" }
+    "test": "mocha test/*.js"
+  },
+  "bin": {
+    "NodeForm": "./bin/sleep-sort"
   },
   "repository": {
     "type": "git",
