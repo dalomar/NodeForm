@@ -1,0 +1,23 @@
+{
+  "name": "nodeform",
+  "version": "1.0.0",
+  "description": "This is my tutorial node module",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "moka test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalomar/NodeForm.git"
+  },
+  "author": "Oumar DRAME",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalomar/NodeForm/issues"
+  },
+  "homepage": "https://github.com/dalomar/NodeForm#readme"
+}
